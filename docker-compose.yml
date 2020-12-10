@@ -26,3 +26,17 @@ services:
       - 8051:5000 # tensorflow servring port
     volumes:
       - ./covid19:/app  # tf2 serving convention
+
+  lb:
+    build:
+      context: ./haproxy
+    image: 'haproxy:0.0.1'
+    volumes:
+      - ./haproxy:/haproxy-override
+    links:
+    #  - fastapi
+      - flask
+    ports:
+      - 8088:8088
+    expose:
+      - 8088
