@@ -1,25 +1,27 @@
-ModelServing-edu/notebooks/notebooks/backup/*
-ModelServing-edu/notebooks/notebooks/Covid_M/*
+notebooks/notebooks/backup/*
+notebooks/notebooks/Covid_M/*
 
-ModelServing-edu/covid19/static/result/*
-ModelServing-edu/covid19/static/source/*
-ModelServing-edu/covid19/test_images/*
-ModelServing-edu/covid19/flask_server/*
-ModelServing-edu/covid19/covid19_models/2/variables/*
-ModelServing-edu/covid19/models/*
-ModelServing-edu/covid19/scripts/*.h5
-ModelServing-edu/covid19/covid19_models/1/variables/*
+covid19/static/result/*
+covid19/static/source/*
+covid19/test_images/*
+covid19/flask_server/*
+covid19/covid19_models/2/variables/*
+covid19/models/*
+covid19/scripts/*.h5
+covid19/covid19_models/1/variables/*
 covid19/models/*
 covid19/__pycache__/*
+covid19/head-base-covid/*
+covid19/image_data.json
 
-ModelServing-edu/covid-fastapi/static/result/*
-ModelServing-edu/covid-fastapi/static/source/*
-ModelServing-edu/covid-fastapi/test_images/*
-ModelServing-edu/covid-fastapi/flask_server/*
-ModelServing-edu/covid-fastapi/covid19_models/2/variables/*
-ModelServing-edu/covid-fastapi/models/*
-ModelServing-edu/covid-fastapi/scripts/*.h5
-ModelServing-edu/covid-fastapi/covid19_models/1/variables/*
+covid-fastapi/static/result/*
+covid-fastapi/static/source/*
+covid-fastapi/test_images/*
+covid-fastapi/flask_server/*
+covid-fastapi/covid19_models/2/variables/*
+covid-fastapi/models/*
+covid-fastapi/scripts/*.h5
+covid-fastapi/covid19_models/1/variables/*
 
 
 # Editor directories and files
@@ -34,6 +36,8 @@ ModelServing-edu/covid-fastapi/covid19_models/1/variables/*
 # local env files
 .env.local
 .env.*.local
+
+*.whl
 
 
 
