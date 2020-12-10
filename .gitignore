@@ -22,6 +22,7 @@ covid-fastapi/covid19_models/2/variables/*
 covid-fastapi/models/*
 covid-fastapi/scripts/*.h5
 covid-fastapi/covid19_models/1/variables/*
+covid-fastapi/head-base-covid/*
 
 
 # Editor directories and files
