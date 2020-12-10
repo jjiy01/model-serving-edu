@@ -23,7 +23,7 @@ services:
     hostname: flask
     restart: on-failure
     ports:
-      - 8051:5000 # tensorflow servring port
+      - 8051-8053:5000 # tensorflow servring port
     volumes:
       - ./covid19:/app  # tf2 serving convention
 
