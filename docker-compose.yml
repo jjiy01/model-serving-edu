@@ -57,7 +57,9 @@ services:
       - ./haproxy:/haproxy-override
     links:
     #  - fastapi
-      - flask
+      - flask1
+      - flask2
+      - flask3
     ports:
       - 8088:8088
     expose:
